@@ -249,6 +249,10 @@ functional proqraamming her kod funksiya daxili yazilir. ve o cagirilgi zaman iw
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -------------------------------------------------------------------------------------------------------------------------
 17)What is the difference between classical inheritance and prototypal inheritance?
+18)What are the pros and cons of functional programming vs object-oriented programming?
+Bu paradiqmada hər şey funksiyalar üzərinə qurulur. OOP-də isə hər şey obyekt olur. Götürdüyümüz obyektin istənilən obyekt olduöğun bilmək üçün this-dən istifadə olunur, burda da bir anlaşılmazlıq this-in çağırılanadək nə olduöğun dəqiq bilmədiymizdir, bu problem aradan götürmək üçün this-I həmişə konsola verib yoxlamaq lazımdır.
+-----------------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------------------------------------------------
 
-
-
+19)When is classical inheritance an appropriate choice?
