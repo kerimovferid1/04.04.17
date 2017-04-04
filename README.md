@@ -193,11 +193,62 @@ Nan "Not-a-Number" deyrini teyin edir.Bununn legal eded olmadigini gosterir.
  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  ---------------------------------------------------------------------------------------------------------------------
  12)Explain the meaning of the keyword ‘this’ in JavaScript functions
+this js bawqa dillerden ferqlendirir.Bir cox hallarda this in deyeri funksiyanin nece cagirldigini teyin edir. bu menimsetme vaxti cagirilir ve muxtelif funksiyalri cagirmaq ucunde istifade olnur. 
 
 
+console.log(this.document === document); // true
+
+// In web browsers, the window object is also the global object:
+console.log(this === window); // true
+
+this.a = 37;
+console.log(window.a); // 37
+--------------------------------------------------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+------------------------------------------------------------------------------------------------------------------
+13)What is the difference between undefined and not defined in JavaScript?
+
+var a; alert(a); // undefined
+a; alert(a); // "Error "a" not defined"
+a = undefined; alert(a); // undefined
+bu misalda gorunduyu kimi var nan teyin etdeyimiz icinde deyer yoxdursa undefined olar
+var nan teyin etmirikse, not defined olar.
 
 
+--------------------------------------------------------------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------
+14)What is function hoisting in JavaScript?
+biz funksiyani istifade edib sonra declare edirik
+yeni
+hoisted(); // logs "foo"
 
-11)
+function hoisted() {
+  console.log('foo');
+}
+==============
+notHoisted(); // TypeError: notHoisted is not a function
+
+var notHoisted = function() {
+   console.log('bar');
+};
+funsoiyanin ifadeleri ise iwlemeycek
+----------------------------------------------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+----------------------------------------------------------------------------------------------------------------------
+15)Can you name two programming paradigms important for JavaScript app developers?
+Burada esas 2 eas proqram paradigmasi var.Procedural ve funsional paradgmalar aiddir.
+Proceduralda evvlede sehv olsa compilator iwini dayandirir.
+funksional ise adinan gorunduyu kimi funksiyalardan istifasde olunur.
+-----------------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------------------------------------------------
+16)What is functional programming?
+functional proqraamming her kod funksiya daxili yazilir. ve o cagirilgi zaman iwe duwur. cagirilmadigi muddetede yaddawda yer tutmur.
+-----------------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------------------------------------------------
+17)What is the difference between classical inheritance and prototypal inheritance?
+
 
 
